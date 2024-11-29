@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Encriptador</title>
+    <link rel="icon" href="imagenes/Logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Space+Mono&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="contenedorheader">
+        <div class="header">
+          <a href="https://github.com/MarscomSoftDev" target="_blank">
+            <img class="logo" src="imagenes/alura.svg" />
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <article class="container">
+        <section class="left" id="left">
+          <textarea
+            class="Entradatexto"
+            id="textoInput"
+            placeholder="Ingrese el texto aquí"
+            autofocus
+          ></textarea>
+          <div class="content_botones">
+            <span class="info">
+              <img src="imagenes/exclamacion.svg" alt="advertencia" />
+              Solo letras minúsculas y sin acentos
+            </span>
+            <div class="botones">
+              <button id="button__encriptar" class="button__encriptar">
+                Encriptar
+              </button>
+              <button id="button__desencriptar" class="button__desencriptar">
+                Desencriptar
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="right" id="rigth">
+          <img
+            id="muneco"
+            class="muneco"
+            src="imagenes/muneco.svg"
+            alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar."
+          />
+          <textarea
+            id="textoFinal"
+            class="textoFinal"
+            placeholder="Ningún mensaje fue encontrado"
+          ></textarea>
+          <p id="textoInfo" class="info">
+            Ingresa el texto que desees encriptar o desencriptar.
+          </p>
+          <button class="button__copiar bn_ocultar" id="button__copiar">
+            Copiar
+          </button>
+        </section>
+      </article>
+    </main>
+    <footer class="footer">
+      <p class="creador">
+        Create by
+        <a
+          href="https://github.com/MarscomSoftDev"
+          target="_blank"
+          class="usuario"
+        >
+          Marscom
+        </a>
+      </p>
+      <div>
+        <a href="https://github.com/MarscomSoftDev" target="_blank">
+          <img class="links" src="imagenes/github.png" />
+        </a>
+
+        <a
+          href="https:/linkedin.com/in/jonathan-martínez-salinas"
+          target="_blank"
+        >
+          <img class="links" src="imagenes/linkedin.png" />
+        </a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
