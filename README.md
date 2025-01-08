@@ -53,3 +53,12 @@ Reglas configurables:
 Puedes cambiar, agregar o eliminar las reglas según las necesidades. Por ejemplo:
 t -> tech
 s -> safe
+
+🖼️ Vista Previa de la Aplicación
+
+![image](https://github.com/user-attachments/assets/a23f9cf1-ba5c-405d-9687-60286a4baf73)
+
+
+![image](https://github.com/user-attachments/assets/c7c213c1-f9cf-4c89-a627-85ce095b98be)
+
+
